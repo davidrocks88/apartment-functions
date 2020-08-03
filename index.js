@@ -16,7 +16,6 @@ const serviceAccount = {
     process.env.SERVICE_ACCOUNT_auth_provider_x509_cert_url,
   client_x509_cert_url: process.env.SERVICE_ACCOUNT_client_x509_cert_url,
 };
-console.log(serviceAccount);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
