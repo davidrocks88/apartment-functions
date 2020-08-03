@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "functions-framework --target=helloWorld"
+    "start": "functions-framework --target=updatePrices"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/davidrocks88/apartment-functions#readme",
   "dependencies": {
-    "@google-cloud/functions-framework": "^1.6.0"
+    "@google-cloud/functions-framework": "^1.6.0",
+    "avalonbay-api": "^1.0.3",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.0.0"
   }
 }
