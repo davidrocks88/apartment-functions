@@ -49,5 +49,5 @@ exports.updatePrices = async (req, res) => {
     console.log(community.id);
     apartmentsBatch.commit();
   });
-  res.send(200);
+  res.status(200);
 };
