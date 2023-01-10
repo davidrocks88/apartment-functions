@@ -20,6 +20,6 @@
     "@google-cloud/functions-framework": "^1.6.0",
     "avalonbay-api": "^1.0.3",
     "dotenv": "^8.2.0",
-    "firebase-admin": "^9.0.0"
+    "firebase-admin": "^11.4.1"
   }
 }
